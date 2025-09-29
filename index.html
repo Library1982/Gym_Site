@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GymNation Replica - High-Class Gym</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <h1 class="logo">GymNation</h1>
+    <nav class="nav-links">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#plans">Plans</a>
+      <a href="#classes">Classes</a>
+      <a href="#trainers">Trainers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Elevate Your Fitness</h1>
+        <p>Experience premium training with elite trainers and world-class facilities.</p>
+        <div class="hero-buttons">
+          <a href="#plans" class="cta">View Plans</a>
+          <a href="#contact" class="cta outline">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section about-section">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About GymNation</h2>
+        <p>Our gym combines luxury with performance. Certified trainers, modern equipment, and premium classes create a transformative experience.</p>
+        <ul>
+          <li>✅ Elite Trainers</li>
+          <li>✅ Personalized Plans</li>
+          <li>✅ Exclusive Classes</li>
+          <li>✅ 24/7 Access & Premium Amenities</li>
+        </ul>
+      </div>
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1599058917216-91d89e6d9811?auto=format&fit=crop&w=800&q=80" alt="Gym Interior">
+      </div>
+    </div>
+  </section>
+
+  <!-- MEMBERSHIP PLANS -->
+  <section id="plans" class="section">
+    <h2 class="section-title">Membership Plans</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Basic</h3>
+        <p class="price">AED 150/month</p>
+        <ul>
+          <li>Gym Access</li>
+          <li>Locker Facility</li>
+        </ul>
+        <button class="cta">Select</button>
+      </div>
+      <div class="card highlight">
+        <h3>Premium</h3>
+        <p class="price">AED 300/month</p>
+        <ul>
+          <li>All Basic Features</li>
+          <li>Personal Trainer</li>
+          <li>Group Classes</li>
+        </ul>
+        <button class="cta">Select</button>
+      </div>
+      <div class="card">
+        <h3>Elite</h3>
+        <p class="price">AED 600/month</p>
+        <ul>
+          <li>24/7 Access</li>
+          <li>Free Diet Plan</li>
+          <li>Spa & Sauna</li>
+        </ul>
+        <button class="cta">Select</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLASSES -->
+  <section id="classes" class="section">
+    <h2 class="section-title">Our Classes</h2>
+    <div class="class-container">
+      <div class="class-card">Yoga</div>
+      <div class="class-card">HIIT</div>
+      <div class="class-card">Boxing</div>
+      <div class="class-card">Strength Training</div>
+      <div class="class-card">Pilates</div>
+    </div>
+  </section>
+
+  <!-- TRAINERS -->
+  <section id="trainers" class="section">
+    <h2 class="section-title">Meet Our Trainers</h2>
+    <div class="trainer-container">
+      <div class="trainer-card">
+        <img src="./images/trainer2.jpg">
+        <h3>Alex Carter</h3>
+        <p>Strength Coach</p>
+      </div>
+      <div class="trainer-card">
+        <img src="./images/trainer2.jpg" alt="Trainer 2">
+        <h3>Maria Lopez</h3>
+        <p>Yoga Instructor</p>
+      </div>
+      <div class="trainer-card">
+        <img src="./images/trainer2.jpg" alt="Trainer 3">
+        <h3>John Smith</h3>
+        <p>Cardio Expert</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="section">
+    <h2 class="section-title">What Our Members Say</h2>
+    <div class="testimonial-container">
+      <div class="testimonial-card">
+        <p>"GymNation transformed my life! The trainers are amazing and the environment is perfect."</p>
+        <h4>- Sarah K.</h4>
+      </div>
+      <div class="testimonial-card">
+        <p>"I love the premium facilities and 24/7 access. Highly recommended!"</p>
+        <h4>- James T.</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit" class="cta">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 GymNation | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
